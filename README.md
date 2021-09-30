@@ -49,6 +49,7 @@ working-directory: ${{github.workspace}}/python
 * Use the [checkout action](https://github.com/actions/checkout) to get a copy of the repository
 * call cmake
 * execute the test
+check.
 
 ## Optional Additional Tasks
 
@@ -58,4 +59,3 @@ working-directory: ${{github.workspace}}/python
 * Provide the binary as a precompiled version automatically. Could be done
   using [gh-pages](https://github.com/peaceiris/actions-gh-pages). Python can e.g. use pyinstaller to create a binary
 * Create a second job that performs a build on windows
-
