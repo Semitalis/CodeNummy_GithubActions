@@ -20,7 +20,7 @@ jobs:
           platform: x64
 
       - name: Configure
-        run: cmake -B ${{github.workspace}}/build
+        run: cmake -B ${{github.workspace}}/build cpp
 
       - name: Build
         working-directory: ${{github.workspace}}/build
